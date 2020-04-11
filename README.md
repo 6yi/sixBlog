@@ -16,7 +16,7 @@ localhost:8080/title
   "msg": "succeed",
   "length": 2,
   "state": 200,
-  "titles": [
+  "data": [
     {
       "title": "java",
       "title_id": 1,
@@ -59,12 +59,13 @@ localhost:8080/articleByAid/1
 {
   "msg": "succeed",
   "state": 200,
-  "article": {
+  "data": [{
     "a_id": 1,
     "t_id": 1,
     "created": "2020-04-10T15:01:56.000",
+    "title": "JVM加载",
     "text": "​\tJVM类加载分为三个部分\r\n\r\n>加载\r\n>\r\n>连接\r\n>\r\n>初始化\r\n\r\n### 加载\r\n\r\n加载过程主要进行了三个操作\r\n\r\n1.通过类的全限定类名来获取该类的二进制字节类\r\n\r\n2.将字节类的静态存储结构转为方法区的运行时数据结构\r\n\r\n3.在堆中生成此类的 **jav......."
-  }
+  }]
 }
 ```
 
@@ -86,7 +87,7 @@ localhost:8080/type
 {
   "msg": "succeed",
   "state": 200,
-  "types": [
+  "data": [
     {
       "t_id": 1,
       "t_name": "java"
@@ -116,7 +117,7 @@ localhost:8080/title/1
   "msg": "succeed",
   "length": 2,
   "state": 200,
-  "titles": [
+  "data": [
     {
       "title": "java",
       "title_id": 1,
@@ -152,7 +153,7 @@ localhost:8080/comment/1
 ```json
 {
   "msg": "succeed",
-  "comments": [
+  "data": [
     {
       "c_id": 1,
       "a_id": 1,

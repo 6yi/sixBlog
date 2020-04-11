@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="301458e3-080d-44b5-97b2-e70220ae6ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/_6blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/lzheng/BlogVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/lzheng/BlogVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT-fat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT-fat.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tk/lzheng/BlogVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/lzheng/BlogVerticle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/lzheng/applicationRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/lzheng/pojo/title.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/lzheng/returnValue/rtTitle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +91,12 @@
       <workItem from="1586530731267" duration="2194000" />
       <workItem from="1586582688225" duration="45000" />
       <workItem from="1586587689315" duration="4000" />
+      <workItem from="1586620514490" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="57" key="#Plugins" timestamp="1586530753093">
