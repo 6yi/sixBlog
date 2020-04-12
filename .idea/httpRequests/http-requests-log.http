@@ -1,0 +1,408 @@
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+<> 2020-04-12T075715.200.txt
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{"t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+<> 2020-04-12T072115.500.txt
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+"{t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }"
+
+<> 2020-04-12T072049.500.txt
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+"{t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }"
+
+<> 2020-04-12T071810.500.txt
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{t_id": 1,"title": "jvm", "text": "jvm", "a_id": "2", "viewable": 1 }
+
+<> 2020-04-12T071803.500.txt
+
+###
+
+POST http://localhost:8080/admin/updateArticle
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"t_id": 1, 	"title": "jvm", 	"text": "jvm", 	"a_id": "2", 	"viewable": 1  }
+
+<> 2020-04-12T071612.500.txt
+
+###
+
+GET http://localhost:8080/admin/updateArticle?t_id=2&title=测试文章&text=hhhhhhh&a_id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T070711.500.txt
+
+###
+
+POST http://localhost:8080/admin/updateArticle?t_id=2&title=测试文章&text=hhhhhhh&a_id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T070704.404.html
+
+###
+
+POST http://localhost:8080/admin/updateArticle?t_id=2&title=测试文章&text=hhhhhhh&a_id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T070617.500.txt
+
+###
+
+GET http://localhost:8080/admin/updateArticle?t_id=2&title=测试文章&text=hhhhhhh&a_id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T070610.404.html
+
+###
+
+POST http://localhost:8080/admin/updateArticle?t_id=2&title=测试文章&text=hhhhhhh&a_id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T070512.500.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T044102.200.txt
+
+###
+
+POST http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T044054.404.html
+
+###
+
+POST http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T044037.404.html
+
+###
+
+POST http://localhost:8080/admin/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T044031.200.txt
+
+###
+
+POST http://localhost:8080/admin/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043943.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043904.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043856.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043718.500.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043543.500.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043510.500.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043441.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043410.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T043335.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T042728.200.txt
+
+###
+
+GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T042658.200.txt
+
+###
+
+POST http://localhost:8080/admin/hello?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T042648.404.html
+
+###
+
+POST http://localhost:8080/admin/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T042641.200.txt
+
+###
+
+POST http://localhost:8080/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T042633.404.html
+
+###
+
+POST http://localhost:8080/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T041558.200.txt
+
+###
+
+POST http://localhost:8080/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T041517.200.txt
+
+###
+
+POST http://localhost:8080/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-12T041016.200.txt
+
+###
+
+POST http://localhost:8080/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/login?user=lzheng&password=lzheng
+Accept: */*
+Cache-Control: no-cache
+
+###
+
