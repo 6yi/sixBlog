@@ -20,12 +20,15 @@ public class BlogVerticle extends AbstractVerticle {
     static final String articleSqlByAid="select * from myblog_article where a_id=?";
     static final String titleSqlByTid="select * from myblog_title where t_id=?";
     static final String commentSqlByAid="select * from myblog_comment where a_id=?";
+
     AsyncSQLClient sqlClient;
     @Override
     public void start(Future<Void> startFuture) throws Exception {
-        HttpServer httpServer = vertx.createHttpServer();
+        HttpServer httpServer= vertx.createHttpServer();
         Router router = Router.router(vertx);
         new Mysqlclient(vertx, config());
+
+
         //跨域解决
         router.route().handler(CorsHandler.create("*").allowedHeader("x-csrftoken").allowedMethod(HttpMethod.GET));
         router.get("/title").handler(context->{
@@ -127,7 +130,7 @@ public class BlogVerticle extends AbstractVerticle {
 
 
 
-
+        vertx.deployVerticle(new AdminVerticle(router));
         httpServer.requestHandler(router::accept);
         httpServer.listen(config().getInteger("http.port",8080));
     }
