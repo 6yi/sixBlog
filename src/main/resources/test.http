@@ -1,0 +1,8 @@
+POST http://59.110.173.180:8082/addComment
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "a_id":"this.$route.params.id",
+  "name":"this.comment_name",
+  "text":"this.comment_text"
+}

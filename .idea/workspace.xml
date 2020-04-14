@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="301458e3-080d-44b5-97b2-e70220ae6ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/lzheng/LoggerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T041016.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T041517.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T041558.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T042633.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T042641.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T042648.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T042658.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T042728.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-12T043335.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/lzheng/AdminVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/lzheng/AdminVerticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/lzheng/BlogVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/lzheng/BlogVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/lzheng/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/lzheng/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT-fat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT-fat.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/6blog-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tk/lzheng/AdminVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/lzheng/AdminVerticle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tk/lzheng/BlogVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/lzheng/BlogVerticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +34,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response137.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -75,6 +82,235 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://59.110.173.180:8082/addComment" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;a_id&quot;:&quot;this.$route.params.id&quot;,&#10;  &quot;name&quot;:&quot;this.comment_name&quot;,&#10;  &quot;text&quot;:&quot;this.comment_text&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://59.110.173.180:8082/addComment" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;a_id&quot;:&quot;this.$route.params.id&quot;,&#10;  &quot;name&quot;:&quot;this.comment_name&quot;,&#10;  &quot;text&quot;:&quot;this.comment_text&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="vertx-web.session" />
+                <option name="path" value="/" />
+                <option name="value" value="d8be8e3de242ae3a316182c9df9516c0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="59.110.173.180" />
+                <option name="name" value="vertx-web.session" />
+                <option name="path" value="/" />
+                <option name="value" value="48412491ba6aaa3dcd5523073c1a5420" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://59.110.173.180:8082" />
+          <option name="urlPath" value="/addComment" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="1" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="2" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="{&quot;a_id&quot;: 1,&quot;name&quot;:&quot;哈&quot;,&quot;text&quot;: &quot;测试信息&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="vertx-web.session" />
+                <option name="path" value="/" />
+                <option name="value" value="d8be8e3de242ae3a316182c9df9516c0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://59.110.173.180:8082" />
+          <option name="urlPath" value="/addComment" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="1" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;a_id&quot;: 1,&quot;name&quot;:&quot;哈&quot;,&quot;text&quot;: &quot;测试信息&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="vertx-web.session" />
+                <option name="path" value="/" />
+                <option name="value" value="d8be8e3de242ae3a316182c9df9516c0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://59.110.173.180:8082" />
+          <option name="urlPath" value="/addComment" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="1" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;a_id&quot;: 1,&quot;name&quot;:&quot;哈&quot;,&quot;text&quot;: &quot;测试信息&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="vertx-web.session" />
+                <option name="path" value="/" />
+                <option name="value" value="bb5370695bb278fc0078eeba6fcb5570" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/addComment" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="1" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;a_id&quot;: 1,&quot;name&quot;:&quot;哈&quot;,&quot;text&quot;: &quot;测试信息&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="vertx-web.session" />
+                <option name="path" value="/" />
+                <option name="value" value="bb5370695bb278fc0078eeba6fcb5570" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/addComment" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="1" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;a_id&quot;: 1,&quot;name&quot;:&quot;哈&quot;,&quot;text&quot;: &quot;测试信息&quot;,}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1098,7 +1334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.vertx.core.Launcher" />
       <module name="_6blog" />
@@ -1113,9 +1349,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/main/resources/test.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="HTTP Request.test#1" />
       </list>
     </recent_temporary>
   </component>
@@ -1135,7 +1375,9 @@
       <workItem from="1586582688225" duration="45000" />
       <workItem from="1586587689315" duration="4000" />
       <workItem from="1586620514490" duration="901000" />
-      <workItem from="1586663207812" duration="19298000" />
+      <workItem from="1586663207812" duration="22580000" />
+      <workItem from="1586747048954" duration="1235000" />
+      <workItem from="1586838841375" duration="10572000" />
     </task>
     <servers />
   </component>
@@ -1159,22 +1401,26 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="580" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1586664517591" />
-    <state width="1506" height="199" key="GridCell.Tab.0.bottom" timestamp="1586692681457">
+    <state x="555" y="152" key="FileChooserDialogImpl" timestamp="1586855311529">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="199" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1586692681457" />
-    <state width="1506" height="199" key="GridCell.Tab.0.center" timestamp="1586692681457">
+    <state x="555" y="152" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1586855311529" />
+    <state width="1506" height="266" key="GridCell.Tab.0.bottom" timestamp="1586857708598">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="199" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1586692681457" />
-    <state width="1506" height="199" key="GridCell.Tab.0.left" timestamp="1586692681457">
+    <state width="1506" height="266" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1586857708598" />
+    <state width="1506" height="266" key="GridCell.Tab.0.center" timestamp="1586857708597">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="199" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1586692681457" />
-    <state width="1506" height="199" key="GridCell.Tab.0.right" timestamp="1586692681457">
+    <state width="1506" height="266" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1586857708597" />
+    <state width="1506" height="266" key="GridCell.Tab.0.left" timestamp="1586857708596">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="199" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1586692681457" />
+    <state width="1506" height="266" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1586857708596" />
+    <state width="1506" height="266" key="GridCell.Tab.0.right" timestamp="1586857708597">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="266" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1586857708597" />
     <state x="284" y="60" key="SettingsEditor" timestamp="1586593106306">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -1183,5 +1429,9 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="179" y="0" key="new project wizard/0.0.1549.831@0.0.1549.831" timestamp="1586592783736" />
+    <state x="432" y="189" key="run.anything.popup" timestamp="1586750305269">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="432" y="189" key="run.anything.popup/0.0.1549.831@0.0.1549.831" timestamp="1586750305269" />
   </component>
 </project>

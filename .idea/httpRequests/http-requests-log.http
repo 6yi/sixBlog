@@ -1,3 +1,108 @@
+POST http://59.110.173.180:8082/addComment
+
+{
+  "a_id":"this.$route.params.id",
+  "name":"this.comment_name",
+  "text":"this.comment_text"
+}
+
+<> 2020-04-14T051249.500.txt
+
+###
+
+POST http://59.110.173.180:8082/addComment
+Content-Type: application/json
+
+{
+  "a_id":"this.$route.params.id",
+  "name":"this.comment_name",
+  "text":"this.comment_text"
+}
+
+<> 2020-04-14T051137.500.txt
+
+###
+
+POST http://59.110.173.180:8082/addComment
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-14T050859.500.txt
+
+###
+
+POST http://59.110.173.180:8082/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+<> 2020-04-14T040823.200.txt
+
+###
+
+GET http://59.110.173.180:8082/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+<> 2020-04-14T040813.404.html
+
+###
+
+POST http://localhost:8080/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+<> 2020-04-14T034714.200.txt
+
+###
+
+POST http://localhost:8080/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+###
+
+POST http://localhost:8080/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+###
+
+POST http://localhost:8080/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+###
+
+POST http://localhost:8080/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息"}
+
+###
+
+POST http://localhost:8080/addComment
+Accept: */*
+Cache-Control: no-cache
+
+{"a_id": 1,"name":"哈","text": "测试信息",}
+
+<> 2020-04-14T034233.500.txt
+
+###
+
 POST http://localhost:8080/admin/updateArticle
 Accept: */*
 Cache-Control: no-cache
@@ -319,90 +424,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2020-04-12T043410.200.txt
-
-###
-
-GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T043335.200.txt
-
-###
-
-GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T042728.200.txt
-
-###
-
-GET http://localhost:8080/admin/hello?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T042658.200.txt
-
-###
-
-POST http://localhost:8080/admin/hello?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T042648.404.html
-
-###
-
-POST http://localhost:8080/admin/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T042641.200.txt
-
-###
-
-POST http://localhost:8080/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T042633.404.html
-
-###
-
-POST http://localhost:8080/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T041558.200.txt
-
-###
-
-POST http://localhost:8080/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T041517.200.txt
-
-###
-
-POST http://localhost:8080/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-04-12T041016.200.txt
-
-###
-
-POST http://localhost:8080/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8080/login?user=lzheng&password=lzheng
-Accept: */*
-Cache-Control: no-cache
 
 ###
 

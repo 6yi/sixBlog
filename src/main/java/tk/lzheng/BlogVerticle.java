@@ -10,11 +10,14 @@ import io.vertx.ext.asyncsql.AsyncSQLClient;
 import io.vertx.ext.sql.SQLConnection;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
-import io.vertx.ext.web.handler.CookieHandler;
-import io.vertx.ext.web.handler.CorsHandler;
-import io.vertx.ext.web.handler.SessionHandler;
+import io.vertx.ext.web.handler.*;
 import io.vertx.ext.web.sstore.LocalSessionStore;
 import io.vertx.ext.web.sstore.SessionStore;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,7 +28,7 @@ public class BlogVerticle extends AbstractVerticle {
     static final String articleSqlByAid="select * from myblog_article where a_id=? and viewable=1";
     static final String titleSqlByTid="select * from myblog_title where t_id=?";
     static final String commentSqlByAid="select * from myblog_comment where a_id=?";
-
+    static final String addComment="INSERT myblog_comment(a_id,`name`,`text`,created,`view`) VALUES(?,?,?,?,?)";
     AsyncSQLClient sqlClient;
     @Override
     public void start(Future<Void> startFuture) throws Exception {
@@ -33,9 +36,15 @@ public class BlogVerticle extends AbstractVerticle {
         Router router = Router.router(vertx);
         new Mysqlclient(vertx, config());
 
-
         //跨域解决
-        router.route().handler(CorsHandler.create("*").allowedHeader("x-csrftoken").allowedMethod(HttpMethod.GET));
+
+        router.route().handler(CorsHandler.create("*")
+                .allowedHeader("x-csrftoken")
+                .allowedHeader("Access-Control-Allow-Headers")
+                .allowedHeader("Access-Control-Allow-Origin")
+                .allowedMethod(HttpMethod.GET)
+                .allowedMethod(HttpMethod.POST)
+                .allowedMethod(HttpMethod.OPTIONS));
 
         router.route().handler(CookieHandler.create());
         SessionStore store = LocalSessionStore.create(vertx);
@@ -44,7 +53,7 @@ public class BlogVerticle extends AbstractVerticle {
         router.get("/title").handler(context->{
                 Mysqlclient.sqlClient.getConnection(res->{
                     hand(res, context, h->{
-                        res.result().query("select * from myblog_title where viewable=1",result->{
+                        res.result().query("SELECT *,DATE_FORMAT(created, '%Y-%m-%d') AS create_time FROM myblog_title where viewable=1",result->{
                             List<JsonObject> jsonObject = result.result().getRows();
                             Map<String,Object> rtMap=reValue(200, "succeed", jsonObject.size(), jsonObject);
                             res.result().close();
@@ -52,6 +61,41 @@ public class BlogVerticle extends AbstractVerticle {
                         });
                     });
                 });
+        });
+        //INSERT myblog_comment(a_id,name,`text`,created,view) VALUES(?,?,?,?)
+        router.post("/addComment").handler(BodyHandler.create()).handler(context->{
+            String json="";
+            try {
+              json= URLDecoder.decode(context.getBodyAsString(),"UTF-8").split("=")[1];
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            JsonObject jsonObject = new JsonObject(json);
+            Mysqlclient.sqlClient.getConnection(res->{
+                hand(res, context, h->{
+                    SimpleDateFormat sdf =new SimpleDateFormat("YYYY-MM-dd HH:MM:ss" );
+                    Date d= new Date();
+                    String str = sdf.format(d);
+                    JsonArray params=new JsonArray()
+                            .add(jsonObject.getInteger("a_id", 1))
+                            .add(jsonObject.getString("name", "lzheng"))
+                            .add(jsonObject.getString("text", "lzheng"))
+                            .add(str)
+                            .add(1);
+                    res.result().updateWithParams(addComment,params,updateResultAsyncResult -> {
+                        if (updateResultAsyncResult.succeeded()){
+                            res.result().close();
+                            context.response().putHeader("content-type","application/json;charset=utf-8").end("{\"state\": 200,\"msg\": \"SUCCEED\"}");
+                        }else{
+                            res.result().close();
+                            context.response().putHeader("content-type","application/json;charset=utf-8").end("{\"state\": 0,\"msg\": \"ERROR\"}");
+                        }
+
+                    });
+                });
+
+            });
+
         });
 
         //通过a_id获取博文
@@ -115,7 +159,6 @@ public class BlogVerticle extends AbstractVerticle {
                         List<JsonObject> jsonObject = result.result().getRows();
                         Map<String,Object> rtMap=reValue(200, "succeed", jsonObject.size(), jsonObject);
                         res.result().close();
-
                         context.response().putHeader("content-type","application/json;charset=utf-8").end(new JsonObject(rtMap).toBuffer());
                     });
                 });
